@@ -1,0 +1,25 @@
+services:
+
+  ordering-service:
+    image: nginx:alpine
+    container_name: ordering-service
+    ports:
+      - "7000:80"
+
+  sigfae-node:
+    image: nginx:alpine
+    container_name: sigfae-node
+    ports:
+      - "8001:80"
+
+  controlefinancier-node:
+    image: nginx:alpine
+    container_name: controlefinancier-node
+    ports:
+      - "8002:80"
+
+  solde-node:
+    image: nginx:alpine
+    container_name: solde-node
+    ports:
+      - "8003:80"

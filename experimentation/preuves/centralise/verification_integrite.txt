@@ -1,0 +1,7 @@
+EXP-CENT-01 — Vérification du journal centralisé
+1. CREATION : empreinte et chaînage valides
+2. VISA_CF : empreinte et chaînage valides
+3. VALIDATION_FP : empreinte et chaînage valides
+4. PRISE_EN_COMPTE_SOLDE : empreinte et chaînage valides
+Altération simulée détectée : OUI
+Base SQLite modifiée par cette vérification : NON

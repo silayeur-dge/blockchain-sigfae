@@ -1,0 +1,1 @@
+Error: endorsement failure during query. response: status:500 message:"Acc\303\250s refus\303\251 : organisation Org1MSP. Organisation autoris\303\251e : Org2MSP" 

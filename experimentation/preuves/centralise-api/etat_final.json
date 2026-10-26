@@ -1,0 +1,11 @@
+{
+  "numero_acte": "EXP-API-2026-001",
+  "matricule": "MAT-FICTIF-2026-001",
+  "nom_agent": "AGENT FICTIF",
+  "type_acte": "PROMOTION",
+  "statut": "PRIS_EN_COMPTE_SOLDE",
+  "date_creation": "2026-10-23T10:54:29.588Z",
+  "date_visa_cf": "2026-10-23T10:54:29.609Z",
+  "date_validation_fp": "2026-10-23T10:54:29.616Z",
+  "date_prise_en_compte": "2026-10-23T10:54:29.624Z"
+}

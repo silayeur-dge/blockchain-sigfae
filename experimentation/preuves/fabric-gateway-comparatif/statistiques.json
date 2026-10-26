@@ -1,0 +1,41 @@
+{
+  "experience": "EXP-FAB-GW-01",
+  "architecture": "Hyperledger Fabric",
+  "transport": "Fabric Gateway gRPC/TLS",
+  "operation": "ReadAct",
+  "canal": "sigfae",
+  "chaincode": "gestionactes",
+  "acte_fictif": "PROMO-2026-002",
+  "mesures_totales": 90,
+  "moyenne_globale_ms": 7.393916044444448,
+  "mediane_globale_ms": 6.924220000000048,
+  "organisations": [
+    {
+      "institution": "FP",
+      "msp": "Org1MSP",
+      "nombre": 30,
+      "moyenne_ms": 7.42402746666667,
+      "mediane_ms": 6.604859000000033,
+      "minimum_ms": 5.348567000000003,
+      "maximum_ms": 18.060922000000005
+    },
+    {
+      "institution": "CF",
+      "msp": "Org2MSP",
+      "nombre": 30,
+      "moyenne_ms": 6.80682476666669,
+      "mediane_ms": 6.729010000000073,
+      "minimum_ms": 5.453706000000011,
+      "maximum_ms": 8.446161999999958
+    },
+    {
+      "institution": "SOLDE",
+      "msp": "Org3MSP",
+      "nombre": 30,
+      "moyenne_ms": 7.950895899999986,
+      "mediane_ms": 7.244388500000014,
+      "minimum_ms": 5.597060000000056,
+      "maximum_ms": 12.529644999999846
+    }
+  ]
+}

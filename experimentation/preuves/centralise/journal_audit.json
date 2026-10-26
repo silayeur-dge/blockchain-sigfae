@@ -1,0 +1,50 @@
+{
+  "numero_acte": "EXP-CENT-2026-001",
+  "statut_final": "PRIS_EN_COMPTE_SOLDE",
+  "evenements": [
+    {
+      "id": 1,
+      "numero_acte": "EXP-CENT-2026-001",
+      "institution": "FP",
+      "action": "CREATION",
+      "ancien_statut": null,
+      "nouveau_statut": "CREE",
+      "horodatage": "2026-10-23T09:38:17.670Z",
+      "empreinte_precedente": "GENESIS",
+      "empreinte_evenement": "b1c34d6c1acc60341c066ec7ee21a86c917fdf04193acf87810ff6275796f59e"
+    },
+    {
+      "id": 2,
+      "numero_acte": "EXP-CENT-2026-001",
+      "institution": "CF",
+      "action": "VISA_CF",
+      "ancien_statut": "CREE",
+      "nouveau_statut": "VISE_CF",
+      "horodatage": "2026-10-23T09:39:09.107Z",
+      "empreinte_precedente": "b1c34d6c1acc60341c066ec7ee21a86c917fdf04193acf87810ff6275796f59e",
+      "empreinte_evenement": "3fc9711cee19b9a7026c683b350ce2323a8b1f9615fbfe94a90f50ed62aba555"
+    },
+    {
+      "id": 3,
+      "numero_acte": "EXP-CENT-2026-001",
+      "institution": "FP",
+      "action": "VALIDATION_FP",
+      "ancien_statut": "VISE_CF",
+      "nouveau_statut": "VALIDE_FP",
+      "horodatage": "2026-10-23T09:39:56.029Z",
+      "empreinte_precedente": "3fc9711cee19b9a7026c683b350ce2323a8b1f9615fbfe94a90f50ed62aba555",
+      "empreinte_evenement": "0101e60d4d8ed653a7ca7e2dcbb583c2f99edc5b3d040dc4d3ae38c1d074b47e"
+    },
+    {
+      "id": 4,
+      "numero_acte": "EXP-CENT-2026-001",
+      "institution": "SOLDE",
+      "action": "PRISE_EN_COMPTE_SOLDE",
+      "ancien_statut": "VALIDE_FP",
+      "nouveau_statut": "PRIS_EN_COMPTE_SOLDE",
+      "horodatage": "2026-10-23T09:39:56.033Z",
+      "empreinte_precedente": "0101e60d4d8ed653a7ca7e2dcbb583c2f99edc5b3d040dc4d3ae38c1d074b47e",
+      "empreinte_evenement": "593af4c2ef652f100bc865d5aa9d6362f3b7140f3ba342d0185fd7a5eeba58a2"
+    }
+  ]
+}

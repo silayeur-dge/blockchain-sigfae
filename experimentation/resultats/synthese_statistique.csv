@@ -1,0 +1,5 @@
+methode,n,moyenne_ms,mediane_ms,ecart_type_ms,p95_ms,p99_ms,minimum_ms,maximum_ms,ic95_inf_ms,ic95_sup_ms
+FastAPI TestClient,100,2.283,2.25,0.178,2.668,3.01,2.078,3.068,2.251,2.319
+FastAPI HTTP,100,2.104,1.922,0.59,3.446,3.822,1.489,4.691,1.991,2.224
+Fabric CLI,100,52.499,50.023,8.669,65.49,94.999,46.552,96.295,50.932,54.269
+Fabric Gateway,100,5.935,5.758,1.024,7.845,9.351,4.74,10.516,5.741,6.148

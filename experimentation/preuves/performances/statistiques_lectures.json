@@ -1,0 +1,38 @@
+{
+  "experience": "EXP-PERF-01",
+  "operation": "ReadAct",
+  "canal": "sigfae",
+  "chaincode": "gestionactes",
+  "acte_fictif": "PROMO-2026-002",
+  "unite": "millisecondes",
+  "mesure": "temps total de la commande cliente",
+  "organisations": {
+    "Org1": {
+      "nombre_lectures": 30,
+      "moyenne_ms": 63.234,
+      "mediane_ms": 57.303,
+      "minimum_ms": 52.664,
+      "maximum_ms": 96.665,
+      "ecart_type_ms": 11.65,
+      "p95_ms": 86.686
+    },
+    "Org2": {
+      "nombre_lectures": 30,
+      "moyenne_ms": 64.45,
+      "mediane_ms": 59.8,
+      "minimum_ms": 51.812,
+      "maximum_ms": 101.046,
+      "ecart_type_ms": 11.653,
+      "p95_ms": 91.297
+    },
+    "Org3": {
+      "nombre_lectures": 30,
+      "moyenne_ms": 82.986,
+      "mediane_ms": 81.456,
+      "minimum_ms": 72.17,
+      "maximum_ms": 101.484,
+      "ecart_type_ms": 7.983,
+      "p95_ms": 100.763
+    }
+  }
+}

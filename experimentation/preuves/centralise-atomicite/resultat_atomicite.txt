@@ -1,0 +1,14 @@
+===== ETAT INITIAL =====
+Statut : CREE
+Événements d'audit : 0
+
+===== INJECTION D'ERREUR =====
+Mise à jour métier effectuée dans la transaction
+Erreur provoquée : Institution ou transition non autorisée
+Rollback exécuté : OUI
+
+===== VERIFICATION FINALE =====
+Statut après rollback : CREE
+Événements d'audit : 0
+Atomicité testée : VALIDE
+Base expérimentale sur disque modifiée : NON

@@ -1,0 +1,15 @@
+{
+  "experience": "EXP-INT-01",
+  "canal": "sigfae",
+  "bloc_source": 40,
+  "bloc_suivant": 41,
+  "algorithme": "SHA-256",
+  "encodage_entete": "ASN.1 DER",
+  "empreinte_originale_base64": "pm0ZnrF7MyMpUuKS0V2T51WOJPrdB62qk26zQDfa0Mk=",
+  "previous_hash_bloc_41_base64": "pm0ZnrF7MyMpUuKS0V2T51WOJPrdB62qk26zQDfa0Mk=",
+  "empreinte_modifiee_base64": "U3YwngCjXNlX13Yxul7kSTmppRm6kEPncQ2UcJiPxF8=",
+  "chainage_original_valide": true,
+  "chainage_apres_alteration_valide": false,
+  "alteration_detectee": true,
+  "modification_registre_reel": false
+}

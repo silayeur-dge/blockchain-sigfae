@@ -1,0 +1,15 @@
+{
+  "experience": "EXP-END-01",
+  "objet": "Verification des endossements et de la validation",
+  "canal": "sigfae",
+  "numero_bloc": "26",
+  "transaction": "99620f0442d3332f5e56a9799b46b0276ed02e80ca3ba08990d35689fe04897b",
+  "chaincode": "gestionactes",
+  "politique": "MAJORITY",
+  "organisations_endosseuses": [
+    "Org2MSP",
+    "Org3MSP"
+  ],
+  "nombre_endossements": 2,
+  "code_validation_base64": "AA=="
+}

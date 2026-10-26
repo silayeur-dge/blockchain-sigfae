@@ -1,0 +1,2 @@
+282e97e9f8e9a6cc4da6ac9b4b46fa75755116a1fa89133acc08b87c4982183e  refus_org1_visa_cf.txt
+3605aef076f6c7b9a7a74ff7ebd1f3d4383c77771556eec7127e4d18ad693546  historique_apres_refus.json

@@ -1,0 +1,68 @@
+=================================
+ AUDIT BLOCKCHAIN SIGFAE
+=================================
+
+1. Versions
+Docker version 29.5.3, build d1c06ef
+Docker Compose version v5.1.4
+v20.20.2
+10.8.2
+peer:
+ Version: v2.5.16
+ Commit SHA: f871cf9
+ Go version: go1.26.4
+ OS/Arch: linux/amd64
+
+2. Conteneurs Fabric
+NAMES                    STATUS
+peer0.org3.example.com   Up About a minute
+peer0.org1.example.com   Up About a minute
+orderer.example.com      Up About a minute
+peer0.org2.example.com   Up About a minute
+
+3. Organisations cryptographiques
+org1.example.com
+org2.example.com
+org3.example.com
+
+4. Vérification des canaux
+
+===== ORG1 =====
+[0;34mUsing organization 1[0m
+[34m2026-10-15 08:11:18.334 GMT 0001 INFO[0m [channelCmd] [34;1mInitCmdFactory[0m -> Endorser and orderer connections initialized
+Channels peers has joined: 
+sigfae
+
+===== ORG2 =====
+[0;34mUsing organization 2[0m
+[34m2026-10-15 08:11:18.428 GMT 0001 INFO[0m [channelCmd] [34;1mInitCmdFactory[0m -> Endorser and orderer connections initialized
+Channels peers has joined: 
+sigfae
+
+===== ORG3 =====
+[0;34mUsing organization 3[0m
+[34m2026-10-15 08:11:18.515 GMT 0001 INFO[0m [channelCmd] [34;1mInitCmdFactory[0m -> Endorser and orderer connections initialized
+Channels peers has joined: 
+sigfae
+
+5. Synchronisation des registres
+
+===== ORG1 =====
+[0;34mUsing organization 1[0m
+[34m2026-10-15 08:11:18.584 GMT 0001 INFO[0m [channelCmd] [34;1mInitCmdFactory[0m -> Endorser and orderer connections initialized
+Blockchain info: {"height":5,"currentBlockHash":"OG2sioy3WjYgEvnT8uPvkNx67ENCgK9xG/QWDwAiGF0=","previousBlockHash":"LPrDZHMTApeJJFowHQnhC0OqkC/+oCc2nV5nzi+rdhA="}
+
+===== ORG2 =====
+[0;34mUsing organization 2[0m
+[34m2026-10-15 08:11:18.667 GMT 0001 INFO[0m [channelCmd] [34;1mInitCmdFactory[0m -> Endorser and orderer connections initialized
+Blockchain info: {"height":5,"currentBlockHash":"OG2sioy3WjYgEvnT8uPvkNx67ENCgK9xG/QWDwAiGF0=","previousBlockHash":"LPrDZHMTApeJJFowHQnhC0OqkC/+oCc2nV5nzi+rdhA="}
+
+===== ORG3 =====
+[0;34mUsing organization 3[0m
+[34m2026-10-15 08:11:18.797 GMT 0001 INFO[0m [channelCmd] [34;1mInitCmdFactory[0m -> Endorser and orderer connections initialized
+Blockchain info: {"height":5,"currentBlockHash":"OG2sioy3WjYgEvnT8uPvkNx67ENCgK9xG/QWDwAiGF0=","previousBlockHash":"LPrDZHMTApeJJFowHQnhC0OqkC/+oCc2nV5nzi+rdhA="}
+
+6. Exemple de smart contract
+Chaincode JavaScript disponible
+
+AUDIT TERMINE

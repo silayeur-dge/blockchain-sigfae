@@ -1,0 +1,6 @@
+.env.local
+.env.*.local
+/vendor/
+/node_modules/
+/var/cache/
+/var/log/
